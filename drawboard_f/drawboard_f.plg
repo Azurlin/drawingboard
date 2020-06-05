@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: drawboard_f - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hp\AppData\Local\Temp\RSP2F22.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/drawboard_f.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\hp\Desktop\¼ÆËã»úÍ¼ÐÎÑ§\¸µÇìºÀ_20172203099_ÍøÂç1701\drawboard_f\drawboard_fView.cpp"
+]
+Creating command line "cl.exe @C:\Users\hp\AppData\Local\Temp\RSP2F22.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+drawboard_fView.cpp
+
+
+
+<h3>Results</h3>
+drawboard_fView.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

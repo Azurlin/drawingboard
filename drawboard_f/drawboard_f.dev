@@ -1,0 +1,125 @@
+[Project]
+FileName=C:\Users\hp\Desktop\¼ÆËã»úÍ¼ÐÎÑ§\¸µÇìºÀ_20172203099_ÍøÂç1701\drawboard_f\drawboard_f.dev
+Name=drawboard_f
+Ver=2
+IsCpp=1
+Type=0
+Compiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS 
+CppCompiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS 
+Includes=
+Linker=
+Libs=
+UnitCount=16
+Folders="Source Files","Header Files","Resource Files"
+[Unit1]
+FileName=./drawboard_f.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit2]
+FileName=./drawboard_f.rc
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=0
+Priority=1000
+[Unit3]
+FileName=./drawboard_fDoc.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit4]
+FileName=./drawboard_fView.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit5]
+FileName=./MainFrm.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit6]
+FileName=./StdAfx.cpp
+Folder="Source Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit7]
+FileName=./drawboard_f.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit8]
+FileName=./drawboard_fDoc.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit9]
+FileName=./drawboard_fView.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit10]
+FileName=./MainFrm.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit11]
+FileName=./Resource.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit12]
+FileName=./StdAfx.h
+Folder="Header Files"
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit13]
+FileName=./res/drawboard_f.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit14]
+FileName=./res/drawboard_f.rc2
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit15]
+FileName=./res/drawboard_fDoc.ico
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000
+[Unit16]
+FileName=./res/Toolbar.bmp
+Folder="Resource Files"
+Compile=0
+CompileCpp=0
+Link=0
+Priority=1000

@@ -1,0 +1,45 @@
+# Project: drawboard_f
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = drawboard_f_private.res
+OBJ      = drawboard_f.o drawboard_fDoc.o drawboard_fView.o MainFrm.o StdAfx.o $(RES)
+LINKOBJ  = drawboard_f.o drawboard_fDoc.o drawboard_fView.o MainFrm.o StdAfx.o $(RES)
+LIBS     = -L"F:/Dev-Cpp/MinGW64/lib" -L"F:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -mwindows
+INCS     = -I"F:/Dev-Cpp/MinGW64/include" -I"F:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"F:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"F:/Dev-Cpp/MinGW64/include" -I"F:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"F:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"F:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = drawboard_f.exe
+CXXFLAGS = $(CXXINCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS
+CFLAGS   = $(INCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_AFXDLL -D_MBCS
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+drawboard_f.o: drawboard_f.cpp
+	$(CPP) -c drawboard_f.cpp -o drawboard_f.o $(CXXFLAGS)
+
+drawboard_fDoc.o: drawboard_fDoc.cpp
+	$(CPP) -c drawboard_fDoc.cpp -o drawboard_fDoc.o $(CXXFLAGS)
+
+drawboard_fView.o: drawboard_fView.cpp
+	$(CPP) -c drawboard_fView.cpp -o drawboard_fView.o $(CXXFLAGS)
+
+MainFrm.o: MainFrm.cpp
+	$(CPP) -c MainFrm.cpp -o MainFrm.o $(CXXFLAGS)
+
+StdAfx.o: StdAfx.cpp
+	$(CPP) -c StdAfx.cpp -o StdAfx.o $(CXXFLAGS)
+
+drawboard_f_private.res: drawboard_f_private.rc drawboard_f.rc
+	$(WINDRES) -i drawboard_f_private.rc --input-format=rc -o drawboard_f_private.res -O coff 
+
